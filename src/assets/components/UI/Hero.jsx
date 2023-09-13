@@ -1,7 +1,7 @@
 import React from 'react';
 // import heroImg from '../../images/hero.svg';
 // import frontimageImg from '../../images/frontimage.svg';
-import pp from '../../images/pp2.png';
+import pp from '../../images/pp.jpg';
 import resume from '../../images/resume.pdf';
 // import nodedotjsImg from '../../images/nextdotjs.svg';
 
