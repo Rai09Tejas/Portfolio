@@ -1,7 +1,8 @@
 import React from 'react';
 // import heroImg from '../../images/hero.svg';
 // import frontimageImg from '../../images/frontimage.svg';
-import pp from '../../images/pp.jpg';
+import pp from '../../images/pp2.png';
+import resume from '../../images/resume.pdf';
 // import nodedotjsImg from '../../images/nextdotjs.svg';
 
 
@@ -60,6 +61,7 @@ const Hero = () => {
                     {/* hero img */}
                     <div className='basis-1/3 mt-10 sm:mt-0'>
                         <figure className='flex items-center justify-center '><img src={pp} alt='' /></figure>
+                        
                     </div>
                     {/* hero img end */}
 

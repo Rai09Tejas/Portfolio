@@ -1,4 +1,5 @@
 import React from 'react'
+import resume from '../../images/resume.pdf';
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -11,16 +12,22 @@ const Footer = () => {
             <h2 className='text-[26px] leading-10 mb-6 text-white font-[600] md:text-[2rem]'>
               Want to give me an opportunity?
             </h2>
-            <a href='#contact'>
-            <button className='flex items-center gap-2 text-white font-[600] border border-solid
-            border-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor hover:text-white
-            hover:font-[500] ease-in duration-100'>
-              {/* <button className='bg-primaryColor text-white font-[500] flex items-center gap-2 */}
-              {/* hover:bg-smallTextColor ease-in duration-300 py-2 px-4 rounded-[8px]'> */}
-                <i class='ri-mail-line'></i>
-                Hire me
-              </button>
-            </a>
+            <div className='d-flex flex-row'>
+              <a href='#contact'>
+              <button className='flex items-center gap-2 text-white font-[600] border border-solid
+              border-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor hover:text-white
+              hover:font-[500] ease-in duration-100'>
+                {/* <button className='bg-primaryColor text-white font-[500] flex items-center gap-2 */}
+                {/* hover:bg-smallTextColor ease-in duration-300 py-2 px-4 rounded-[8px]'> */}
+                  <i class='ri-mail-line'></i>
+                  Hire me
+                </button>
+
+              </a>
+              <a href={resume} download='Resume'><button className='my-4 flex items-center gap-2 text-white font-[600] border border-solid
+              border-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor hover:text-white
+              hover:font-[500] ease-in duration-100'><i class="ri-mail-download-line"></i>Resume</button></a>
+            </div>
           </div>
 
           <div className='w-full sm:w-1/2'>
