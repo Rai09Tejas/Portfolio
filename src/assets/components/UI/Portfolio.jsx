@@ -50,11 +50,11 @@ const Portfolio = () => {
                         </button>
                         <button onClick={() => setSelectTab('web-design')} className='bg-smallTextColor bg-black text-white font-[500] gap-2 hover:bg-smallTextColor
                     ease-in duration-100 py-2 px-4 rounded-[8px]'>
-                            Full Stack
+                            Application
                         </button>
                         <button onClick={() => setSelectTab('ux-design')} className='bg-smallTextColor bg-black text-white font-[500] gap-2 hover:bg-smallTextColor
                     ease-in duration-100 py-2 px-4 rounded-[8px]'>
-                            UI/UX
+                            Full Stack
                         </button>
                     </div>
                 </div>

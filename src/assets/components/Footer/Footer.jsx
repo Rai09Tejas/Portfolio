@@ -34,13 +34,13 @@ const Footer = () => {
               </span>
 
               <span className='w-[40px] h-[40px]  mt-8 bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center'>
-                <a href='https://instagram.com/coding_ding?igshid=MzNlNGNkZWQ4Mg==' className='text-gray-font-[500] text-[25px]'><i class="ri-instagram-line"></i></a>
+                <a href='mailto:rai09tejas@gmail.com' className='text-gray-font-[500] text-[25px]'><i class="ri-mail-line"></i></a>
               </span>
               <span className='w-[40px] h-[40px]  mt-8 bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center'>
-                <a href='https://github.com/Rooney9999' className='text-gray-300 font-[500] text-[25px]'><i class='ri-github-line'></i></a>
+                <a href='https://github.com/Rai09Tejas' className='text-gray-300 font-[500] text-[25px]'><i class='ri-github-line'></i></a>
               </span>
               <span className='w-[40px] h-[40px]  mt-8 bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center'>
-                <a href='https://www.linkedin.com/in/hasan-iqbal-b28322216' className='text-gray-300 font-[500] text-[25px]'><i class="ri-linkedlin-box-line"></i></a>
+                <a href='https://www.linkedin.com/in/tejas-rai-t9/' className='text-gray-300 font-[500] text-[25px]'><i class="ri-linkedin-box-line"></i></a>
               </span>
             </div>
           </div>
@@ -54,15 +54,15 @@ const Footer = () => {
             <div className='hidden sm:block'>
               <div className='flex items-center gap-[10px]'>
                 <span className='w-[35px] h-[35px]  bg-white text-black text-[18px] font-[500]
-                     rounded-full flex items-center justify-center'>H</span>
+                     rounded-full flex items-center justify-center'>TR</span>
 
                 <div className='leading-[20px]'>
-                  <h2 className='text-xl text-white font-[700]'>Hasan Iqbal</h2>
+                  <h2 className='text-xl text-white font-[700]'>Tejas Rai</h2>
                 </div>
               </div>
             </div>
             <div>
-              <p className='text-gray-400 text-[14px]'>Copyright &copy; {year} <br /><b>Hasan Iqbal</b> </p>
+              <p className='text-gray-400 text-[14px]'>Copyright &copy; {year} <br /><b>Tejas Rai</b> </p>
             </div>
           </div>
         </div>

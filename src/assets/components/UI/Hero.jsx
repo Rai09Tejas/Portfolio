@@ -28,7 +28,7 @@ const Hero = () => {
                         </h5>
 
                         <h1 data-aos='fade-right' data-aos-duration='1500' className='text-headingColor font-[800]
-                        text-[1.8rem] sm-text[40px] leading-[35px] sm:leading-[46px] mt-5'>I'm Tejas Rai <br /> A Electronics & Telecommunication Engineering Graduate
+                        text-[1.8rem] sm-text[40px] leading-[35px] sm:leading-[46px] mt-5'>I'm Tejas Rai <br /> A E&TC Engineering Graduate
                         </h1>
 
                         <div data-aos='fade-right' data-aos-duration='1500' data-aos-delay='150' className='flex items-center gap-6 mt-7'>
@@ -50,9 +50,9 @@ const Hero = () => {
                         </div>
                         <div className='flex items-center gap-9 mt-14'>
                             <span className='text-smallTextColor text-[20px] font-[600]'>Connect</span>
-                            <span><a title='instagram' target='_blank' href='mailto:rai09tejas@gmail.com' className='text-smallTextColor text-[25px] font-[600]'><i class="ri-mail-fill"></i></a></span>
-                            <span><a  title='github' target='_blank' href='https://github.com/Rai09Tejas' className='text-smallTextColor text-[25px] font-[600]'><i class='ri-github-line'></i></a></span>
+                            <span><a title='Email' target='_blank' href='mailto:rai09tejas@gmail.com' className='text-smallTextColor text-[25px] font-[600]'><i class="ri-mail-fill"></i></a></span>
                             <span><a title='LinkedIn' target='_blank' href='https://www.linkedin.com/in/tejas-rai-t9' className='text-smallTextColor text-[25px] font-[600]'><i class='ri-linkedin-box-fill'></i></a></span>
+                            <span><a  title='Github' target='_blank' href='https://github.com/Rai09Tejas' className='text-smallTextColor text-[25px] font-[600]'><i class='ri-github-line'></i></a></span>
                         </div>
                     </div>
                     {/* hero left end */}
@@ -64,7 +64,7 @@ const Hero = () => {
                     {/* hero img end */}
 
                     {/* hero image content right */}
-                    <div className='md:basis-1/5 flex justify-between text-center mt-10 flex-wrap gap-3 md:mt-0 md:flex-col
+                    <div className='hidden md:basis-1/5 flex justify-between text-center mt-10 flex-wrap gap-3 md:mt-0 md:flex-col
                         md:justify-end md:text-end'>
                         <div className='mb-10'>
                             <span><a href='#reactjs' className='text-smallTextColor text-[80px] '><i class="ri-reactjs-fill"></i></a></span>
