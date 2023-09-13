@@ -22,8 +22,7 @@ const Contact = () => {
                 <h2 className='text-headingColor font-[700] text-[2.5rem] mb-8'>Get in touch</h2>
                 <div className='md:flex justify-between items-center'>
                     <div className='w-full md:w-1/2 h-300px sm:h-[450px]'>
-                        <iframe title='google-maps' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56957.53322478022!2d80.96827842824155!3d26.84485556432767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfd49fc60a843%3A0x92fc72e19b623f6a!2sGomti%20Nagar%2C%20Lucknow%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1683802476265!5m2!1sen!2sin"
-                            className='border-0 w-full h-full' allowfullscreen="" loading="lazy"
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121058.93192411773!2d73.7803941895357!3d18.52476130024322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1694593454070!5m2!1sen!2sin" className='border-0 w-full h-full' allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
 

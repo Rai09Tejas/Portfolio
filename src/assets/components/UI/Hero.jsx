@@ -28,7 +28,7 @@ const Hero = () => {
                         </h5>
 
                         <h1 data-aos='fade-right' data-aos-duration='1500' className='text-headingColor font-[800]
-                        text-[1.8rem] sm-text[40px] leading-[35px] sm:leading-[46px] mt-5'>I'm Hasan Iqbal <br /> A CS Engineering Graduate
+                        text-[1.8rem] sm-text[40px] leading-[35px] sm:leading-[46px] mt-5'>I'm Tejas Rai <br /> A Electronics & Telecommunication Engineering Graduate
                         </h1>
 
                         <div data-aos='fade-right' data-aos-duration='1500' data-aos-delay='150' className='flex items-center gap-6 mt-7'>
@@ -38,17 +38,21 @@ const Hero = () => {
                             <a href='#portfolio' className='text-smallTextColor font-[600] text-[16px] border-b border-solid border-smallTextColor'>See Portfolio</a>
                         </div>
 
-                        <p data-aos='fade-left' data-aos-duration='1500' className='flex gap-2 text-headingColor mt-12 font-[500] text-[15px] leading-7 sm:pl-14 sm:pr-10'>
-                            <span class='ri-apps-2-line'></span>
-                            <b>I am a software engineering aspirant who is seeking to find the opportunity to up skill in a hardworking and competitive environment as well as be
-                             motivated by the company to do the best for the 
-                            sake of helping myself and the company advance in the software engineering industry by becoming an asset.</b>
-                        </p>
+                        <div data-aos='fade-left' data-aos-duration='1500' className='mt-12'>
+                            <div className='flex gap-2 text-headingColor font-[500] text-[15px] leading-7 sm:pl-14 sm:pr-10' >
+                                <span className='ri-apps-2-line'></span>
+                                <b>"Dedicated Programmer | Freelance Android Developer | Continuous Learner Ready to Dive into Code!"</b>
+                            </div>
+                            <div className='flex gap-2 text-headingColor font-[500] text-[15px] leading-7 sm:pl-14 sm:pr-10'>
+                                <span className='ri-apps-2-line'></span>
+                                <b>I'm a dedicated programmer with a deep passion for Android development. As a freelancer, I thrive in challenging work environments and am always eager to expand my skill set and knowledge. I'm on a constant quest for new opportunities to learn and grow in the world of coding. Let's connect and embark on an exciting coding journey together!</b>
+                            </div>
+                        </div>
                         <div className='flex items-center gap-9 mt-14'>
                             <span className='text-smallTextColor text-[20px] font-[600]'>Connect</span>
-                            <span><a title='instagram' target='_blank' href='https://instagram.com/coding_ding?igshid=MzNlNGNkZWQ4Mg==' className='text-smallTextColor text-[25px] font-[600]'><i class="ri-instagram-fill"></i></a></span>
-                            <span><a  title='github' target='_blank' href='https://github.com/Rooney9999' className='text-smallTextColor text-[25px] font-[600]'><i class='ri-github-line'></i></a></span>
-                            <span><a title='LinkedIn' target='_blank' href='https://www.linkedin.com/in/hasan-iqbal-b28322216' className='text-smallTextColor text-[25px] font-[600]'><i class='ri-linkedin-box-fill'></i></a></span>
+                            <span><a title='instagram' target='_blank' href='mailto:rai09tejas@gmail.com' className='text-smallTextColor text-[25px] font-[600]'><i class="ri-mail-fill"></i></a></span>
+                            <span><a  title='github' target='_blank' href='https://github.com/Rai09Tejas' className='text-smallTextColor text-[25px] font-[600]'><i class='ri-github-line'></i></a></span>
+                            <span><a title='LinkedIn' target='_blank' href='https://www.linkedin.com/in/tejas-rai-t9' className='text-smallTextColor text-[25px] font-[600]'><i class='ri-linkedin-box-fill'></i></a></span>
                         </div>
                     </div>
                     {/* hero left end */}
