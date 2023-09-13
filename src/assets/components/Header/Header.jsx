@@ -27,7 +27,7 @@ const Header = () => {
 
   return (
     
-    <header /*ref={headerRef}* this is for sticky navbar*/ className="w-full h-[80px] bg-[#444] leading-[80px] flex items-center">
+    <header /*ref={headerRef}* this is for sticky navbar*/ className="w-full h-[80px] bg-[#444] leading-[80px] flex items-center position-sticky">
       <div className='container'>
         <div className='flex items-center justify-between'>
           {/* logo start */}
